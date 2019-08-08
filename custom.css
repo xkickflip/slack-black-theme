@@ -959,6 +959,13 @@ ts-thread .view_all_replies_container:hover {
    border: 1px solid var(--border-dim);
    color: var(--text);
 }
+.c-sidebar_menu__list_item {
+    color: var(--text);
+}
+.c-keyboard_key {
+    color: var(--text);
+    background: var(--background);
+}
 
 /* unreads */
 .unread_empty_state {
@@ -1367,7 +1374,12 @@ hr.c-menu_separator__separator {
     color: var(--text);
     font-weight: 400!important;
 }
-
+.p-member_profile_field__label {
+    color: var(--text);
+}
+.p-member_profile_flexpane .p-member_profile_field {
+    border-top-color: var(--background-hover);
+}
 /* snippet / file container / download bar */
 .c-snippet__code .CodeMirror-code>div:before {
     background-color: var(--background);
